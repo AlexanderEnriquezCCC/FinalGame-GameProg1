@@ -13,5 +13,7 @@ namespace ProofOfConcept.Models.Weapons
         string Type { get; set; }
         string Verb { get; set; }
 
+
+        string Use();
     }
 }
