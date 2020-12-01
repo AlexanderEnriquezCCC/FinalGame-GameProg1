@@ -8,6 +8,12 @@ namespace ProofOfConcept.Models.Weapons
 {
     public class CowboyGun : Weapon
     {
-        //gets stuff from parent
+        public CowboyGun()
+        {
+            this.Name = "Gun";
+            this.Damage = 5;
+            this.Verb = "Shoot";
+            this.Type = "Cowboy";
+        }
     }
 }

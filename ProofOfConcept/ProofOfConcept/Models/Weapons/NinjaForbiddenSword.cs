@@ -8,5 +8,12 @@ namespace ProofOfConcept.Models.Weapons
 {
     public class NinjaForbiddenSword : Weapon
     {
+        public NinjaForbiddenSword()
+        {
+            this.Name = "Forbidden Sword";
+            this.Damage = 8;
+            this.Verb = "slash";
+            this.Type = "Ninja";
+        }
     }
 }

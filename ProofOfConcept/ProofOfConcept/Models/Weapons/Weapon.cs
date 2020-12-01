@@ -15,10 +15,10 @@ namespace ProofOfConcept.Models.Weapons
 
         public Weapon()
         {
-            this.Name = "Gun";
-            this.Damage = 5;
-            this.Verb = "Shoot";
-            this.Type = "Cowboy";
+            this.Name = "Hand";
+            this.Damage = 3;
+            this.Verb = "punch";
+            this.Type = "Class";
         }
 
         public string Use()

@@ -42,7 +42,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Game1.cs" />
+    <Compile Include="Models\Weapons\CowboyGoldenGun.cs" />
+    <Compile Include="Models\Weapons\CowboyGun.cs" />
     <Compile Include="Models\Weapons\IWeapon.cs" />
+    <Compile Include="Models\Weapons\NinjaForbiddenSword.cs" />
+    <Compile Include="Models\Weapons\NinjaSword.cs" />
+    <Compile Include="Models\Weapons\Weapon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

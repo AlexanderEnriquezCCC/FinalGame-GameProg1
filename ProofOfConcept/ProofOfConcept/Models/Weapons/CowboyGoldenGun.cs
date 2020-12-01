@@ -12,7 +12,7 @@ namespace ProofOfConcept.Models.Weapons
         {
             this.Name = "Golden Gun";
             this.Damage = 10;
-            this.Verb = "Shoot"; //same as parent
+            this.Verb = "shoot"; //same as parent
             this.Type = "Cowboy"; //same as parent
         }
     }
