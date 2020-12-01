@@ -18,6 +18,7 @@ namespace ProofOfConcept.Models.Weapons
             this.Name = "Gun";
             this.Damage = 5;
             this.Verb = "Shoot";
+            this.Type = "Cowboy";
         }
 
         public string Use()
