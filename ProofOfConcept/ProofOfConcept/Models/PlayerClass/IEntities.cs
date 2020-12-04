@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace ProofOfConcept.Models.PlayerClass
 {
-    interface IPlayerClass
+    interface IEntities
     {
         int HP { get; set; }
         int Defence { get; set; }
         int Damage { get; set; }
         int DamageModifier { get; set; } //might put this in weapons
-
-
+        int XPLevel { get; set; }
     }
 }

@@ -42,6 +42,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Game1.cs" />
+    <Compile Include="Models\PlayerClass\AngryCowboy.cs" />
+    <Compile Include="Models\PlayerClass\BadGuys.cs" />
+    <Compile Include="Models\PlayerClass\Cowboy.cs" />
+    <Compile Include="Models\PlayerClass\IEntities.cs" />
+    <Compile Include="Models\PlayerClass\MadNinja.cs" />
+    <Compile Include="Models\PlayerClass\Ninja.cs" />
+    <Compile Include="Models\PlayerClass\PlayerClass.cs" />
     <Compile Include="Models\Weapons\CowboyGoldenGun.cs" />
     <Compile Include="Models\Weapons\CowboyGun.cs" />
     <Compile Include="Models\Weapons\IWeapon.cs" />
